@@ -1,0 +1,35 @@
+body {
+    background-color:#4A6D7C;
+    text-align:center;
+}
+
+button {
+    background-color:#E56B6F;
+    font-family: 'open sans', sans-serif;
+    width:185px;
+    padding:10px;
+    margin-top:60px;
+    border-radius: 8px;
+    border:none;
+    font-size:12px;
+    color: #663399;
+    text-transform:uppercase;
+}
+
+button:hover {
+    background-color:#DDA0DD;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight:lighter;
+    color:#FFC0CB;
+    font-size:44px;
+}
+
+h2 {
+    font-family: 'open sans', sans-serif;
+    font-weight:normal;
+        color:#C6C5B9;
+
+}
