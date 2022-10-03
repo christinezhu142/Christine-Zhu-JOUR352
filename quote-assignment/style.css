@@ -16,7 +16,11 @@ div {
     width: 300px;
     height: 300px;
     text-align:center;
-    font-size:44px;
+    font-size:37px;
     font-family: 'Courgette', bold;
     color:#000000;
+    border:4px;
+    border-color:aquamarine;
+    padding:inherit;
+    margin:auto;
 }
