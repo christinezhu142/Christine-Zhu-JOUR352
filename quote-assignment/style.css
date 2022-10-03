@@ -1,14 +1,14 @@
 /*
 MY COLOR PALETTE
-Color 1 - #HEX
-Color 2 - #HEX
-Color 3 - #HEX
-Color 4 - #HEX
-Color 5 - #HEX
+Color 1 - #F0F8FF
+Color 2 - #000000
+Color 3 - #FFEBCD
+Color 4 - #00008B
+Color 5 - #A9A9A9
 */
 
 body {
-    background-color: ;
+    background-color:#00008B;
     text-align:center;
 }
 
@@ -17,6 +17,6 @@ div {
     height: 300px;
     text-align:center;
     font-size:44px;
-    font-family: 'Courgette', cursive;
-    color: ;
+    font-family: 'Courgette', bold;
+    color:#000000;
 }
