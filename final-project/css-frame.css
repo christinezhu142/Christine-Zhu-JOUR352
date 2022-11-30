@@ -1,0 +1,120 @@
+/* hero  */
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.hero-hed {
+  font-family: Cutive, serif;
+  font-size: 5.5em;
+  color:  black;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 10px;
+}
+
+.hero-subhed {
+  font-family: Cutive, serif;
+  font-size: 5.5em;
+  text-align: center;
+}
+
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: left;
+  font-family: Montserrat, sans-serif;
+  color: #8D0000;
+}
+
+.container {
+  width: 70%;
+}
+
+.pullquote {
+  font-size: 2em;
+  font-family: Cutive, serif;
+  padding-left: 15px;
+  color: #8D0000;
+}
+
+.byline {
+  font-size: 1em;
+  font-size: 1em;
+  text-align: left;
+}
+
+p {
+  font-family: Georgia, serif;
+  line-height: 180%;
+}
+
+hr {
+  border: solid;
+  height: 5px;
+}
+
+.footer {
+  text-align: center;
+  margin: 0 auto;
+  color: #8D0000;
+}
+
+.red {
+  color: #8D0000;
+}
+
+/* media queries !! */
+
+@media(max-width:768px) {
+
+  p{
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .chapterhead {
+    font-size: 1.25em;
+  }
+
+  .hed {
+    font-size: 2em;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .hero-hed {
+      font-size: 1.25rem;
+    }
+
+  .headline {
+      font-size: 2em;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1200px) {
+  .hero-hed {
+      font-size: 3.75rem;;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px) {
+  .hero-hed {
+      font-size: 2.25rem;
+    }
+}
+
+
+@media(max-width:768px) {
+
+  .hero-hed {
+      font-size: 1.25rem;
+    }
+}
